@@ -26,6 +26,10 @@ app.get('/', function(req, res){
   res.render('index');
 });
 
+app.get('/', function(req, res){
+  res.render('pindex');
+});
+
 app.post('/', upload.single('avatar'), function(req, res) {
     console.log(req.body); //form fields
     /* example output:
