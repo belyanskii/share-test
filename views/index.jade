@@ -1,0 +1,11 @@
+html
+    head
+        title
+        script(src="https://yastatic.net/share2/share.js", async="async")
+    body
+        form(method="post",enctype="multipart/form-data",action="/")
+            p
+                input(type="file",name="avatar",accept="image/*;capture=camera")
+            p
+                input(type="submit")
+            div(class="ya-share2", data-services="vkontakte,twitter,facebook,gplus", data-image="https://pokeshare-test.herokuapp.com/uploads/1469025816146963887.jpg", data-counter)
