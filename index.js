@@ -26,7 +26,7 @@ app.get('/', function(req, res){
   res.render('index');
 });
 
-app.get('/1333', function(req, res){
+app.get('/rrr', function(req, res){
   res.render('pindex');
 });
 
